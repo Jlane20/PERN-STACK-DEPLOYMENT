@@ -115,8 +115,7 @@ scp -i [path to pem file] [path to yelp.pgsql] username@[server-ip]:[directory t
 In this example the pem file and yelp.gsql file are located in the current directory and my server ip is `1.1.1.1` and the username is `ubuntu`
 
 ```
-scp -i yelp.pem yelp.pgsql ubuntu@1.1.1.1:/home/ubuntu/
-```
+scp -i "pattern-cracker.pem" mvp.pgsql  ubuntu@ec2-3-142-12-190.us-east-2.compute.amazonaws.com:Home```
 
 Login to the production server and create a database called `yelp`
 ```
